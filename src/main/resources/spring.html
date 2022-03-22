@@ -1,0 +1,16 @@
+<!DOCTYPE PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+    <!-- activate the @PostConstruct and
+@PreDestroy annotation -->
+
+    <bean class="org.springframework
+.context.annotation
+.CommonAnnotationBeanPostProcessor"></bean>
+
+    <!-- configure the bean -->
+    <bean class="BLC2.models.HelloWorld"></bean>
+
+</beans>
